@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Live Demo
 
 https://rodi5.github.io/E-commerce-react/
@@ -72,3 +73,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# EEB-Fruit
+Fruit selling website for eeb project
+>>>>>>> c3713e49cb8d5b7b13ce02f9234570ad78a7efb9

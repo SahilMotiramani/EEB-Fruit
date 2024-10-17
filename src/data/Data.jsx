@@ -3,7 +3,7 @@ export const featured = [
         id: '1',
         icon: <i className='fas fa-car-side fa-3x'></i>,
         name: "Free Shipping",
-        desc: "Free on order over $300",
+        desc: "Free on order over ₹300",
     },
     {
         id: '2',
@@ -31,7 +31,7 @@ export const fruits = [
         img: '../img/fruite-item-5.jpg',
         name: 'Grapes',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
-        price: '5.40',
+        price: '80.40',
         icon: <i className='fa fa-shopping-bag'></i>,
         cart: 'Add to Cart'
     },
@@ -40,7 +40,7 @@ export const fruits = [
         img: '../img/fruite-item-1.jpg',
         name: 'Oranges',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
-        price: '4.99',
+        price: '104.99',
         icon: <i className='fa fa-shopping-bag'></i>,
         cart: 'Add to Cart'
     },
@@ -49,7 +49,7 @@ export const fruits = [
         img: '../img/fruite-item-2.jpg',
         name: 'Raspberries',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
-        price: '4.70',
+        price: '114.70',
         icon: <i className='fa fa-shopping-bag'></i>,
         cart: 'Add to Cart'
     },
@@ -58,7 +58,7 @@ export const fruits = [
         img: '../img/fruite-item-3.jpg',
         name: 'Banana',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
-        price: '6.99',
+        price: '36.99',
         icon: <i className='fa fa-shopping-bag'></i>,
         cart: 'Add to Cart'
     },
@@ -67,7 +67,7 @@ export const fruits = [
         img: '../img/fruite-item-4.jpg',
         name: 'Apricots',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
-        price: '3.99',
+        price: '53.99',
         icon: <i className='fa fa-shopping-bag'></i>,
         cart: 'Add to Cart'
     },
@@ -76,7 +76,7 @@ export const fruits = [
         img: '../img/fruite-item-5.jpg',
         name: 'Grapes',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
-        price: '5.99',
+        price: '105.99',
         icon: <i className='fa fa-shopping-bag'></i>,
         cart: 'Add to Cart'
     },
@@ -85,7 +85,7 @@ export const fruits = [
         img: '../img/fruite-item-6.jpg',
         name: 'Appels',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
-        price: '3.80',
+        price: '203.80',
         icon: <i className='fa fa-shopping-bag'></i>,
         cart: 'Add to Cart'
     },
@@ -97,7 +97,7 @@ export const vegetables = [
         img: '../img/vegetable-item-1.jpg',
         name: 'Fresh Tomato',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
-        price: '5.40',
+        price: '25.40',
         icon: <i className='fa fa-shopping-bag'></i>,
         cart: 'Add to Cart'
     },
@@ -106,7 +106,7 @@ export const vegetables = [
         img: '../img/vegetable-item-5.jpg',
         name: 'Potato',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
-        price: '3.99',
+        price: '33.99',
         icon: <i className='fa fa-shopping-bag'></i>,
         cart: 'Add to Cart'
     },
@@ -115,7 +115,7 @@ export const vegetables = [
         img: '../img/vegetable-item-1.jpg',
         name: 'Tomato',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
-        price: '4.50',
+        price: '34.50',
         icon: <i className='fa fa-shopping-bag'></i>,
         cart: 'Add to Cart'
     },
@@ -124,7 +124,7 @@ export const vegetables = [
         img: '../img/vegetable-item-4.jpg',
         name: 'Pepper',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
-        price: '6.99',
+        price: '36.99',
         icon: <i className='fa fa-shopping-bag'></i>,
         cart: 'Add to Cart'
     },
@@ -133,7 +133,7 @@ export const vegetables = [
         img: '../img/vegetable-item-5.jpg',
         name: 'Potato',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
-        price: '4.29',
+        price: '34.29',
         icon: <i className='fa fa-shopping-bag'></i>,
         cart: 'Add to Cart'
     },
@@ -142,7 +142,7 @@ export const vegetables = [
         img: '../img/vegetable-item-6.jpg',
         name: 'Parsley',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
-        price: '5.10',
+        price: '35.10',
         icon: <i className='fa fa-shopping-bag'></i>,
         cart: 'Add to Cart'
     },
@@ -151,7 +151,7 @@ export const vegetables = [
         img: '../img/vegetable-item-4.jpg',
         name: 'Pepper',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
-        price: '2.90',
+        price: '32.90',
         icon: <i className='fa fa-shopping-bag'></i>,
         cart: 'Add to Cart'
     },
@@ -160,7 +160,7 @@ export const vegetables = [
         img: '../img/vegetable-item-6.jpg',
         name: 'Parsley',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
-        price: '4.10',
+        price: '34.10',
         icon: <i className='fa fa-shopping-bag'></i>,
         cart: 'Add to Cart'
     },
@@ -172,7 +172,7 @@ export const bsetseller = [
         img: '../img/fruite-item-1.jpg',
         name: 'Organic Orange',
         star: <i className="fas fa-star"></i>,
-        price: '5.40',
+        price: '105.40',
         icon: <i className='fa fa-shopping-bag'></i>,
         cart: 'Add to Cart'
     },
@@ -181,7 +181,7 @@ export const bsetseller = [
         img: '../img/fruite-item-2.jpg',
         name: 'Organic Raspberry',
         star: <i className="fas fa-star"></i>,
-        price: '4.99',
+        price: '104.99',
         icon: <i className='fa fa-shopping-bag'></i>,
         cart: 'Add to Cart'
     },
@@ -208,7 +208,7 @@ export const bsetseller = [
         img: '../img/fruite-item-5.jpg',
         name: 'Organic Grapes',
         star: <i className="fas fa-star"></i>,
-        price: '3.99',
+        price: '83.99',
         icon: <i className='fa fa-shopping-bag'></i>,
         cart: 'Add to Cart'
     },
@@ -217,7 +217,7 @@ export const bsetseller = [
         img: '../img/fruite-item-6.jpg',
         name: 'Organic Appels',
         star: <i className="fas fa-star"></i>,
-        price: '5.99',
+        price: '85.99',
         icon: <i className='fa fa-shopping-bag'></i>,
         cart: 'Add to Cart'
     },
@@ -277,47 +277,47 @@ export const shop_feature = [
         img: '../img/featur-1.jpg',
         name: 'Big Apples',
         star: <i className="fas fa-star"></i>,
-        price: '5.40 $',
-        delete: '4.11 $'
+        price: '5.40 ₹',
+        delete: '4.11 ₹'
     },
     {
         id: '2',
         img: '../img/featur-2.jpg',
         name: 'Big Straw',
         star: <i className="fas fa-star"></i>,
-        price: '4.99 $',
-        delete: '4.11 $'
+        price: '4.99 ₹',
+        delete: '4.11 ₹'
     },
     {
         id: '3',
         img: '../img/featur-3.jpg',
         name: 'Big Carnap',
         star: <i className="fas fa-star"></i>,
-        price: '4.70 $',
-        delete: '4.11 $'
+        price: '4.70 ₹',
+        delete: '4.11 ₹'
     },
     {
         id: '4',
         img: '../img/featur-1.jpg',
         name: 'Big Apples',
         star: <i className="fas fa-star"></i>,
-        price: '5.40 $',
-        delete: '4.11 $'
+        price: '5.40 ₹',
+        delete: '4.11 ₹'
     },
     {
         id: '5',
         img: '../img/featur-2.jpg',
         name: 'Big Straw',
         star: <i className="fas fa-star"></i>,
-        price: '4.99 $',
-        delete: '4.11 $'
+        price: '4.99 ₹',
+        delete: '4.11 ₹'
     },
     {
         id: '6',
         img: '../img/featur-3.jpg',
         name: 'Big Carnap',
         star: <i className="fas fa-star"></i>,
-        price: '4.70 $',
-        delete: '4.11 $'
+        price: '4.70 ₹',
+        delete: '4.11 ₹'
     },
 ]

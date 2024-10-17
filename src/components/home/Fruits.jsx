@@ -1,10 +1,25 @@
-import React from 'react'
-import { fruits } from '../../data/Data'
+import React, { useState } from 'react';
+import { fruits } from '../../data/Data';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../../redux/CartSlice';
 
 const Fruits = () => {
     const dispatch = useDispatch();
+    
+    // State to track which fruit has been added to cart
+    const [addedToCartMessage, setAddedToCartMessage] = useState(null);
+
+    // Function to handle adding to cart and showing message
+    const handleAddToCart = (val) => {
+        dispatch(addToCart(val));
+        setAddedToCartMessage(val.id); // Set the current fruit's ID
+
+        // Automatically hide the message after 2 seconds
+        setTimeout(() => {
+            setAddedToCartMessage(null);
+        }, 2000);
+    };
+
     return (
         <div className='mt-40 container ml-auto mr-auto'>
             <div className='flex flex-col mb-10 mx-4 md:mx-20 lg:flex lg:justify-between lg:flex-row lg:mx-10 lg:gap-10'>
@@ -30,18 +45,28 @@ const Fruits = () => {
                                 <p className='leading-normal font-normal my-4 w-10/12 mx-auto' style={{color: '#020e1ccf'}}>{val.desc}</p>
                             </div>
                             <div className='flex justify-between items-center mb-8 mx-6 xl:mx-3'>
-                                <p className='font-semibold text-lg' style={{color: '#0c363b'}}>${val.price} / Kg</p>
+                                <p className='font-semibold text-lg' style={{color: '#0c363b'}}>₹{val.price} / Kg</p>
                                 <div className='border rounded-full border-orange-400 py-2 px-4 lg:px-2 '>
                                     <span className='pr-4 lg:pr-1 ' style={{color: '#81c408'}}>{val.icon}</span>
-                                    <button onClick={() => dispatch(addToCart(val))} className='font-semibold' style={{color: '#81c408'}}>{val.cart}</button>
+                                    <button 
+                                        onClick={() => handleAddToCart(val)} 
+                                        className='font-semibold' 
+                                        style={{color: '#81c408'}}
+                                    >
+                                        {val.cart}
+                                    </button>
                                 </div>
                             </div>
+                            {/* Show the "Added to Cart" message if the current fruit's ID matches */}
+                            {addedToCartMessage === val.id && (
+                                <p className='text-green-500 text-center mb-4'>Added to Cart!</p>
+                            )}
                         </div>
                     )
                 })}
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Fruits
+export default Fruits;

@@ -19,7 +19,7 @@ const ShopDetail = () => {
                             <div>
                                 <h2 className='text-xl font-bold my-4' style={{color: '#45595b'}}>Brocoli</h2>
                                 <p style={{color: '#45595b'}}>Category: Vegetables</p>
-                                <p className='font-bold text-xl my-4' style={{color: '#45595b'}}>3,35 $</p>
+                                <p className='font-bold text-xl my-4' style={{color: '#45595b'}}>3,35 ₹</p>
                                 <ul>
                                     <li className='fa fa-star' style={{color: '#ffb524'}}></li>
                                     <li className='fa fa-star' style={{color: '#ffb524'}}></li>
@@ -213,7 +213,7 @@ const ShopDetail = () => {
                                     <p className='leading-normal font-normal my-4 w-10/12 mx-auto' style={{color: '#020e1ccf'}}>{val.desc}</p>
                                 </div>
                                 <div className='flex justify-between items-center mb-8 mx-6 lg:flex-col xl:flex-row lg:mx-2 xl:mx-3 '>
-                                    <p className='font-semibold text-lg lg:my-2' style={{color: '#0c363b'}}>${val.price} / Kg</p>
+                                    <p className='font-semibold text-lg lg:my-2' style={{color: '#0c363b'}}>₹{val.price} / Kg</p>
                                     <div className='border rounded-full border-orange-400 py-2 px-4 lg:px-2 '>
                                         <span className='pr-4 lg:pr-1 ' style={{color: '#81c408'}}>{val.icon}</span>
                                         <button onClick={() => dispatch(addToCart(val))} className='font-semibold' style={{color: '#81c408'}}>{val.cart}</button>

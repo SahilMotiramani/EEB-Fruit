@@ -17,7 +17,7 @@ const Banner = () => {
                     <div className='absolute top-0 left-0 bg-white rounded-full w-32 h-32 flex justify-center items-center'>
                         <span className='text-8xl font-bold' style={{color: '#45595b'}}>1</span>
                         <div className='flex flex-col py-10'>
-                            <span className='text-2xl font-bold' style={{color: '#45595b'}}>50$</span>
+                            <span className='text-2xl font-bold' style={{color: '#45595b'}}>50₹</span>
                             <span className='text-lg font-semibold' style={{color: '#45595b'}}>Kg</span>
                         </div>
                     </div>

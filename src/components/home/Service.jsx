@@ -28,7 +28,7 @@ const Service = () => {
                     <img src="../img/featur-3.jpg" className='w-full rounded-t-xl '  alt="" />
                     <div className='info-service relative bottom-20 py-8 px-12 w-9/12 sm:w-7/12 md:w-9/12 md:px-6 max-w-full rounded-lg text-center' style={{backgroundColor: '#ffb524'}}>
                         <h4 className='text-white text-xl font-semibold'>Exotic vegitable</h4>
-                        <p className='text-lg lg:text-2xl lg:font-semibold' style={{color: '#45595b'}}>Discount 30$</p>
+                        <p className='text-lg lg:text-2xl lg:font-semibold' style={{color: '#45595b'}}>Discount 30₹</p>
                     </div>
                 </div>
                 <div className='w-full h-64 absolute bottom-0 rounded-xl'style={{backgroundColor: '#81c408'}}></div>

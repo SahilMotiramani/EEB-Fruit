@@ -12,11 +12,11 @@ const Header = () => {
                 <div className='flex'>
                     <div>
                         <span className='fas fa-map-marker-alt secondary pr-3 pl-2'></span>
-                        <span className='hover:cursor-pointer'>123 Street, New York</span>
+                        <span className='hover:cursor-pointer'>Chembur</span>
                     </div>
                     <div>
                         <span className="fas fa-envelope secondary pr-3 pl-4"></span>
-                        <span className='hover:cursor-pointer'>Email@Example.com</span>
+                        <span className='hover:cursor-pointer'>Vesit@ves.ac.in</span>
                     </div>
                 </div>
                 <div className='pr-4'>
